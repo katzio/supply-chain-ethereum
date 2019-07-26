@@ -1,0 +1,14 @@
+{
+  "name": "supply-chain-project",
+  "version": "1.0.0",
+  "description": "Project for Blockchain at SCE",
+  "main": "index.js",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "license": "ISC"
+}
