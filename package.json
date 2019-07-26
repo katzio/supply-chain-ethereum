@@ -4,11 +4,19 @@
   "description": "Project for Blockchain at SCE",
   "main": "index.js",
   "dependencies": {
-    "openzeppelin-solidity": "^2.3.0"
+    "ganache-cli": "^6.5.0",
+    "openzeppelin-solidity": "^2.3.0",
+    "truffle-hdwallet-provider": "^1.0.0-web3one.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "truffle": "^5.0.29"
+  },
   "scripts": {
-    "test": "test"
+    "build": "truffle build",
+    "dev": "truffle develop",
+    "deploy": "truffle migrate",
+    "start-net": "ganache-cli",
+    "test": "truffle test"
   },
   "license": "ISC"
 }
