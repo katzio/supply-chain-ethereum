@@ -3,6 +3,8 @@
 - Run on LINUX. Windwos is problematic.
 - Make sure you have Node JS & npm installed.
 - `npm install`
+- `npm install -g ganache-cli`
+- `npm install -g truffle`
 - `npm run build`
 - `npm run deploy`
 - `npm run start-net`
