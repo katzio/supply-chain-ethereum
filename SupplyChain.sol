@@ -68,11 +68,12 @@ contract SupplyChain {
                 break;
             }
         }
-        // if it's not a reused item, require it to not have last item
+        // if it's not a reused item, require it to be the last item
         if (!repeatInstance){
             require(lastSteps[_item] == 0, "Instance not valid.");
         }
 
+        // create new Step in the chain
         steps[totalSteps] = Step(msg.sender,_item,_precedents);
         uint256 step = totalSteps;
         totalSteps += 1;
