@@ -9,7 +9,7 @@
     "truffle-hdwallet-provider": "^1.0.0-web3one.5"
   },
   "devDependencies": {
-    "truffle": "^5.0.29"
+    "truffle": "^5.7.9"
   },
   "scripts": {
     "build": "truffle build",
